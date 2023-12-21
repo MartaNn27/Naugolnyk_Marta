@@ -1,0 +1,78 @@
+*{
+    margin:0;
+}
+body{
+    font-family: arial;
+    background-color: blue;
+    color:red;
+    
+}
+.header {
+    width: auto;
+    height: 100px;
+    text-align: center;
+    margin: 3;
+}
+.my_photo {
+    border: 2px;
+    float: right;
+    margin: 10px 50px;
+    height: auto;
+    width: auto;
+}
+.right-section{
+    display: flex;
+    justify-content: right;
+    padding: 20px; 
+}
+.left-section{
+    
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.left-section, .right-section{
+    flex:1;
+}
+.musics {
+    list-style-type: circle;
+   
+}
+
+.hobbies {
+    list-style-type: square;
+   
+}
+
+.animals {
+    list-style-type: disc;
+   
+}
+.description{
+    margin: 5px;
+    font-size:large;
+}
+.info{
+    margin: 5px;
+    
+        display: flex;
+        justify-content: space-between;
+    
+}
+.title{
+padding: 35px;
+}
+.form{
+    text-align: center;
+    height: fit-content;
+    margin:5px;
+          
+}
+.firm, .model, .radio-buttons, .price-input, .additional, .submit-button{
+    margin:10px;
+}
+.additional{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 45%;
+}

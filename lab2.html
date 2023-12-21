@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+    <title>About me</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">About me</h1>
+    </div>
+    <div class="info">
+    <div class="left-section">
+            <div class="description">
+                <h3>My favorite musics:</h3>
+                <ul class="musics">
+                    <li>Chris Isaak - Wicked game</li>
+                    <li>Bones - Ribs</li>
+                    <li>Depeche Mode - Enjoy The Silence</li>
+                </ul>
+
+                <h3>My hobbies:</h3>
+                <ul class="hobbies">
+                    <li>Hiking</li>
+                    <li>Walking</li>
+                    <li>Active sports</li>
+                </ul>
+
+                <h3>My favorite animals:</h3>
+                <ul class="animals">
+                    <li>dog</li>
+                    <li>cat</li>
+                </ul>
+
+                <h3>My favorite subjects:</h3>
+                <ol class="subjects">
+                    <li>Object Oriented Programing</li>
+                    <li>Web technologies </li>
+                    <li>System analis</li>
+                </ol>
+            </div>
+     </div>
+    
+    <div class="right-section">
+    <div class="my_photo">
+        <img   class="my_photo" src="face.png".jpg" alt="this is me on the photo">
+    </div>
+    </div>
+    </div>
+    
+    <form class="form">
+        <p class="label">Я шукаю телефон </p>
+        <div class="firm">
+        
+        
+        <label for="firm">фірми:</label>
+    <select id="firm" name="firm" title="Оберіть фірму-виробника">
+        <option value="apple">Apple</option>
+        <option  value="samsung">Samsung</option>
+        <option value="nokia">Nokia</option>
+        
+    </select>
+    </div>
+    <div class="model">
+    <label for="model">модель:</label>
+    <select id="model" name="model" title="Оберіть модель">
+        <option value="11pro">11pro</option>
+        <option  value="S50">S50</option>
+        <option value="SE">SE</option>
+        
+    </select>
+    </div>
+
+<div class="radio-buttons">
+    <input type="radio" id="" name="black-white-display"  />
+    <label for="c-display">з кольоровим дисплеєм</label>
+  </div>
+
+  <div>
+    <input type="radio" id="horns" name="black-white-display"/>
+    <label for="bw-display">з чорно-білим дисплеєм</label>
+  </div>
+  <div class="price-input">
+    <label for="price">з ціною, не вищою за *.</label>
+    <input type="text" id="price" name="price" required minlength="1" maxlength="5" size="10">
+    <select id="currency" name="currency" >
+        <option value="euro">євро</option>
+        <option  value="dollars">доларів</option>
+        <option value="uah">гривень</option>
+    
+    </select>
+  </div>
+  <div class="additional">
+    <p>Додаткові вимоги:</p>
+    <div>
+        <input type="checkbox" id="camera" name="camera"/>
+        <label for="camera">вбудована камера</label>
+      </div>
+    
+      <div>
+        <input type="checkbox" id="dictaphone" name="dictaphone" />
+        <label for="dictaphone">диктофон</label>
+      </div>
+      <div>
+        <input type="checkbox" id="java-games" name="java-games" checked/>
+        <label for="java-games">java-ігри</label>
+      </div>
+    
+      <div>
+        <input type="checkbox" id="organizer" name="organizer" />
+        <label for="organizer">органайзер</label>
+      </div>
+      <div>
+        <input type="checkbox" id="melodies" name="melodies" />
+        <label for="melodies">поліфонічні мелодії</label>
+      </div>
+
+  </div>
+  <div class="email">
+    <label for="email">Моя електронна адреса:</label>
+    <input type="email" id="email" name="email">
+  </div>
+  <div class=" submit-button">
+    <input type="submit" value="Відправити запит">
+  </div>
+
+  
+</form>
+</body>
+</html>
